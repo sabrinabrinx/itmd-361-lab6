@@ -1,34 +1,39 @@
-body 
-  background-color: #39FF14;
-  font-family: Comic Sans;
-  color: #3b3740;
+td, th {
   text-align: center;
-}
-
-#information {
-  text-align: left;
+  font-family: Comic Sans, Cursive;
+	border: 0.5px dashed;
+  color: rgb(73, 15, 102);
+  font-size: 24px;
+  }
+  
+p {
+  text-align: center;
+  color: rgb(73, 15, 102);
+  font-family: cursive;
+  font-size: 24px;
 }
 
 h1 {
+  text-align: center;
+  color: pink;
+  font-family: cursive;
   font-size: 64px;
-  color: #15022e;
-  background-color: #3b3740;
-  border: 2px solid;
-  border-color: #190933;
-  font-weight: bold;
 }
 
-td, th {
-  border: 2px solid;
+table {
+  margin: 0 auto;
+  border-spacing: 15px 4px;
+  border-collapse: separate;
 }
 
-#planets {
-  background-color: #92ad39;
-  border: 6px solid;
-  border-collapse: collapse;
-  margin: auto;
-  width: 80%;
-  height: 600px;
-  color: #02301a;
-  font-size: 28px;
+body {
+  background: linear-gradient(in hsl longer hue 90deg, red 0 0);
+}
+
+tr:nth-child(even) {
+  background: linear-gradient(in hsl longer hue 75deg, red 0 0);
+}
+
+tr:nth-child(odd) {
+  background: linear-gradient(in hsl longer hue 285deg, red 0 0);
 }
