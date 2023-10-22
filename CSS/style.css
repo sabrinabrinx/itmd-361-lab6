@@ -1,1 +1,36 @@
+body {
+  background-color: body {
+  background-color: #body {
+  background-color: #39FF14;
+  font-family: Comic Sans;
+  color: #3b3740;
+  text-align: center;
+}
 
+#information {
+  text-align: left;
+}
+
+h1 {
+  font-size: 64px;
+  color: #15022e;
+  background-color: #3b3740;
+  border: 2px solid;
+  border-color: #190933;
+  font-weight: bold;
+}
+
+td, th {
+  border: 2px solid;
+}
+
+#planets {
+  background-color: #92ad39;
+  border: 6px solid;
+  border-collapse: collapse;
+  margin: auto;
+  width: 80%;
+  height: 600px;
+  color: #02301a;
+  font-size: 28px;
+}
