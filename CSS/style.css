@@ -27,7 +27,7 @@ table {
 }
 
 body {
-  background: linear-gradient(in hsl longer hue 90deg, red 0 0);
+  background: black;
 }
 
 tr:nth-child(even) {
